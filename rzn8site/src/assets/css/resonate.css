@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+
 .row{
 background-image: url('../images/resonate.png');
 }
@@ -15,7 +17,10 @@ background-image: url('../images/resonate.png');
 }
 
 #print a{
-    align-items: baseline;
+    position: absolute;
+    bottom: 50px;
+    color: black;
+    font-family: 'Cinzel', serif;
 }
 
 #print:hover{
@@ -40,4 +45,11 @@ background-image: url('../images/resonate.png');
     background-size: 700px;
     background-color: #696969;
     transition: all 1.5s ease;
+}
+
+#publishing a{
+    position: absolute;
+    bottom: 50px;
+    color: white;
+    font-family: 'Cinzel', serif;
 }
