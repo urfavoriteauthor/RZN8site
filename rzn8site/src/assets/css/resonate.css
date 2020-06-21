@@ -143,3 +143,11 @@ background-image: url('../images/resonate.png');
       text-shadow: 8px 8px black;
       transition: all 1s ease;
   }
+
+  #homebtn{
+      position: absolute;
+      bottom: 0;
+      right: 500px;
+      align-items: center;
+      align-content: center;
+  }

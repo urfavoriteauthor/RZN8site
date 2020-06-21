@@ -9,7 +9,7 @@ class Contact extends React.Component{
                     Please take a second to view our Publishing services for authors and musicians.</h5></div>
                 
 
-              
+                    <button className='btn btn-dark'id='homebtn'><Link to='/'><h1>Return to Main</h1></Link></button>
     </div>
         )
     }

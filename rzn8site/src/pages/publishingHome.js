@@ -7,7 +7,7 @@ class Publishing extends React.Component{
         return(
             <div id='publishingHome'>
                 <Navbar/>
-            <button className='btn btn-dark'><Link to='/'><h1>Return to Main</h1></Link></button>
+
             </div>
         )
     }
