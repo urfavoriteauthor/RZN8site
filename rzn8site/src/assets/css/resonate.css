@@ -1,0 +1,43 @@
+.row{
+background-image: url('../images/resonate.png');
+}
+
+#print{
+    background: white; 
+    background-image: url('../images/resonate.png');
+    height: 100vh;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    background-size: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#print a{
+    align-items: baseline;
+}
+
+#print:hover{
+    background-size: 700px;
+    background-color: #c0c0c0;
+    transition: all 1.5s ease;
+}
+
+#publishing{
+    background: black; 
+    height: 100vh;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    background-image: url('../images/RZN8CHROME.png');
+    background-size: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#publishing:hover{
+    background-size: 700px;
+    background-color: #696969;
+    transition: all 1.5s ease;
+}
