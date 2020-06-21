@@ -2,12 +2,12 @@
 
     #publishingHome{
         background: white; 
-        background-image: url('../images/RZN8LOGO.png');
+        background-image: url('../images/RZN8animation.gif');
         height: 100vh;
         display: flex; 
         justify-content: center; 
         align-items: center;
-        background-size: 500px;
+        background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
     }
@@ -23,7 +23,17 @@
         background-repeat: no-repeat;
         background-position: center;
     }
+    #publishingHome button{
 
+        position: absolute;
+        bottom: 0;
+        font-family: 'Cinzel', serif;
+    
+    }
+
+    #publishingHome h1{
+        color: white;
+    }
     #printHome button{
 
         position: absolute;
@@ -95,3 +105,41 @@ background-image: url('../images/resonate.png');
     color: white;
     font-family: 'Cinzel', serif;
 }
+
+#navbar{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    align-content: center;
+    justify-content: space-around;
+    background-color: white;
+    list-style: none;
+    display: flex;
+    transform: scale(1);
+    transition: transform 0.7s ease;
+    text-shadow: 1px 1px black;
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    min-height: auto;
+    align-items: center;
+    padding: 10px;
+    font-family: 'Cinzel',serif;
+    list-style: none;
+}
+
+#navbar li{
+    width: 100%;
+    font-size: 36px;
+    color: white;
+    list-style: none;
+    display: flex;
+    display: inline;
+    padding: 20px;
+    
+  }
+
+  #navbar li:hover{
+      text-shadow: 8px 8px black;
+      transition: all 1s ease;
+  }

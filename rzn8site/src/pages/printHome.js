@@ -8,7 +8,7 @@ class Print extends React.Component{
                 <div><h5>At this time we are not able to offer printing Services. 
                     Please take a second to view our Publishing services for authors and musicians.</h5></div>
                 
-<button className='btn btn-dark'><Link to='/'><h1>Return to Publishing</h1></Link></button>
+<button className='btn btn-dark'><Link to='/'><h1>Return to Main</h1></Link></button>
               
     </div>
         )
