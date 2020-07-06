@@ -5,12 +5,11 @@ class Contact extends React.Component{
     render(){
         return(
             <div id='contact'>
-                <div><h5>At this time we are not able to offer printing Services. 
-                    Please take a second to view our Publishing services for authors and musicians.</h5></div>
-                
 
-                    <button className='btn btn-dark'id='homebtn'><Link to='/'><h1>Return to Main</h1></Link></button>
-    </div>
+   <a href="https://twitter.com/intent/tweet?button_hashtag=URxFAVxAUTHOR&ref_src=twsrc%5Etfw" class="twitter-hashtag-button" data-show-count="false">Tweet #URxFAVxAUTHOR</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>            
+ 
+</div>
+   
         )
     }
 }

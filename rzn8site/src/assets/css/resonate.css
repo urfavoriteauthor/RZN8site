@@ -22,12 +22,29 @@
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
+        
     }
+h5{
+    background: red;
+    border: black;
+    border: 5px;
+    padding: 8px;
+    font-family: 'Cinzel', serif;
+}
+
+#printHome button{
+    position: absolute;
+    bottom: 0;
+    font-family: 'Cinzel', serif;
+    letter-spacing: 2em;
+}
+
     #publishingHome button{
 
         position: absolute;
         bottom: 0;
         font-family: 'Cinzel', serif;
+       
     
     }
 

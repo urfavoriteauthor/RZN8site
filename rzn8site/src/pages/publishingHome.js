@@ -8,6 +8,9 @@ class Publishing extends React.Component{
             <div id='publishingHome'>
                 <Navbar/>
 
+                
+                <button className='btn btn-outline-danger btn-lg btn-block'><Link to='/'><h3>Return to Main</h3></Link></button>
+
             </div>
         )
     }

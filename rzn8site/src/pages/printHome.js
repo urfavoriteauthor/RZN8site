@@ -5,11 +5,13 @@ class Print extends React.Component{
     render(){
         return(
             <div id='printHome'>
-                <div><h5>At this time we are not able to offer printing Services. 
-                    Please take a second to view our Publishing services for authors and musicians.</h5></div>
                 
-<button className='btn btn-dark'><Link to='/'><h1>Return to Main</h1></Link></button>
+<button className='btn btn-outline-danger btn-lg btn-block'><Link to='/'><h3>Return to Main</h3></Link></button>
               
+                <div id='noticeDiv'>
+                    <h5>At this time, we are not offering Printing Services. 
+                    Take a second to view our Publishing services for authors and musicians.</h5>
+                    </div>
     </div>
         )
     }

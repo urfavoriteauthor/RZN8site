@@ -29,7 +29,7 @@ class Music extends React.Component{
                     {/* First Row */}
                 </div>
                 </div>
-                <button className='btn btn-dark'id='homebtn'><Link to='/'><h1>Return to Main</h1></Link></button>
+                {/* <button className='btn btn-dark'id='homebtn'><Link to='/'><h1>Return to Main</h1></Link></button> */}
     </div>
         )
     }
