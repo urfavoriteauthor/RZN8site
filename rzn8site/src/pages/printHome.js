@@ -6,7 +6,7 @@ class Print extends React.Component{
         return(
             <div id='printHome'>
                 
-<button className='btn btn-outline-danger btn-lg btn-block'><Link to='/'><h3>Return to Main</h3></Link></button>
+<button className='btn btn-outline-light btn-lg btn-block'><Link to='/'><h3>Return to Main</h3></Link></button>
               
                 <div id='noticeDiv'>
                     <h5>At this time, we are not offering Printing Services. 

@@ -25,11 +25,13 @@
         
     }
 h5{
-    background: red;
+    background: black;
     border: black;
     border: 5px;
     padding: 8px;
     font-family: 'Cinzel', serif;
+    color: white;
+    border-radius: 20%;
 }
 
 #printHome button{
@@ -50,6 +52,7 @@ h5{
 
     #publishingHome h1{
         color: white;
+        background-color: black;
     }
     #printHome button{
 
@@ -167,4 +170,147 @@ background-image: url('../images/resonate.png');
       right: 500px;
       align-items: center;
       align-content: center;
+  }
+
+ /* On screens that are 992px wide or less, go from four columns to two columns */
+@media screen and (max-width: 992px) {
+    #publishing{
+        background: black; 
+        height: 100vh;
+        display: flex; 
+        justify-content: center; 
+        align-items: center;
+        background-image: url('../images/RZN8CHROME.png');
+        background-size: 300px;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    
+    #publishing button{
+        align-content: center;
+        text-align: center;
+    justify-items: center;
+    padding-right:200px;
+    font-size: 20px;
+    }
+    #print{
+        background: white; 
+        height: 100vh;
+        display: flex; 
+        justify-content: center; 
+        align-items: center;
+        background-image: url('../images/RZN8CHROME.png');
+        background-size: 300px;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    
+    #print button{
+        align-content: center;
+        text-align: center;
+    justify-items: center;
+    padding-right:200px;
+    }
+  
+    #printHome button{
+        position: absolute;
+        bottom: 0;
+        font-family: 'Cinzel', serif;
+        }
+
+        #printHome button h3{
+            font-size: 20px;
+            letter-spacing: 1px;
+        }
+    
+        #publishingHome button{
+    
+            position: absolute;
+            bottom: 0;
+            font-family: 'Cinzel', serif;
+           
+        
+        }
+  }
+  
+  /* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+
+
+#publishing{
+    background: black; 
+    height: 100vh;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    background-image: url('../images/RZN8CHROME.png');
+    background-size: 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#publishing button{
+    align-content: center;
+    text-align: center;
+justify-items: center;
+padding-right:200px;
+font-size: 20px;
+}
+#print{
+    background: white; 
+    height: 100vh;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    background-image: url('../images/RZN8CHROME.png');
+    background-size: 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#print button{
+    align-content: center;
+    text-align: center;
+justify-items: center;
+padding-right:200px;
+}
+
+#printHome{
+    background: white; 
+    background-image: url('../images/RZN8LOGO.png');
+    height: 100vh;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    background-size: cover;
+    background-repeat: space;
+    background-position: center;
+    padding: 10px;
+    
+}
+
+#printHome button{
+    position: absolute;
+    bottom: 0;
+    font-family: 'Cinzel', serif;
+    /* letter-spacing: 2em; */
+    align-items: center;
+    align-content: center;
+}
+
+    #publishingHome button{
+
+        position: absolute;
+        bottom: 0;
+        font-family: 'Cinzel', serif;
+       
+    
+    }
+
+    #noticeDiv{
+        align-items: center;
+        align-content: center;
+        padding: 1px;
+        margin-bottom: 100px;
+    }
   }
